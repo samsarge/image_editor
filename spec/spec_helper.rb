@@ -1,5 +1,19 @@
 # frozen_string_literal: true
 
+require 'editor/stack'
+require 'editor/image'
+require 'editor/input'
+require 'editor/commands/base'
+require 'editor/commands/create_image'
+require 'editor/commands/clear_image'
+require 'editor/commands/colour_pixel'
+require 'editor/commands/draw_vertical_segment'
+require 'editor/commands/draw_horizontal_segment'
+require 'editor/commands/fill_region'
+require 'editor/commands/show_content'
+require 'editor/commands/terminate_session'
+require 'editor'
+
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
