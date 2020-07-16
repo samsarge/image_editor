@@ -13,6 +13,8 @@ module Commands
 
       # Note: index == input coord - 1
       # I hate that i'm iterating through every element in the 2d array here...
+      # The best thing to do here would be to start at the index you know you need to start at
+      # already given the input and just increment indexes from there.
       array.each_with_index do |row, y_index|
         row.each_with_index do |_element, x_index|
           if (x_index >= (x1 - 1)) && (x_index <= (x2 - 1)) && (y_index == (y - 1))
