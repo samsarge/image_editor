@@ -1,7 +1,5 @@
 # README
 
-# Tech Test
-
 ## To run
 `ruby start.rb`
 
@@ -37,7 +35,3 @@ be done, testing the user input and software output as a whole as well. I had ru
 I used RSpec because I prefer the syntax and some it's helpful methods (#let, #change).
 
 frozen_string_literal comments added for older ruby versions.
-
-Contact me if you have any questions.
-
-Cheers.
